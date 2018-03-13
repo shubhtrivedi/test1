@@ -1,12 +1,11 @@
+
 import random
 
 chars = '''ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,./;'[]!@#$%^&*()_+~\|:"<>?'''
 times = int(input('[.]Number of passwords?\n[.]'))
 length = int(input('[.]Password length?\n[.]'))
 
-
-f = open('shubhamtrivedi123/password.txt','w')
-
+f = open('Chaudhary/password.txt','w')
 
 for i in range(times):
 	password = ''
